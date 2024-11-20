@@ -16,7 +16,7 @@ data_path = r"C:\Users\keval\OneDrive\Desktop\UTA dataset.xlsx"
 data = pd.read_excel(data_path)
 
 # Streamlit App Title and Heading
-st.title("UTA Student Retention Analysis App")
+st.title("Student Retention Analysis App")
 st.write("### Analyzing Key Factors Affecting Student Retention Using Correlation, Logistic Regression, and Random Forest Models")
 
 # Convert categorical variables to numeric using one-hot encoding
